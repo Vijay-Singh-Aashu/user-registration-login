@@ -47,8 +47,8 @@ public class UserServices {
 			}else {
 				
 				responseStructure.setStatusCode(HttpStatus.NOT_ACCEPTABLE.value());
-				responseStructure.setMessage("User----Not----Registered...");
-				responseStructure.setDescription("user should has combination of specialcharacter, digits....and alphabets ...");
+				responseStructure.setMessage("User******Not*****Registered...");
+				responseStructure.setDescription("user should has combination of special character, digits....and alphabets ...");
 				responseStructure.setData(user);
 				return responseStructure;
 			}
